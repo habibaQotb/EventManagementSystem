@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="661.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventmanagement.AdminMethodsController">
+   <children>
+      <Label layoutX="156.0" layoutY="24.0" prefHeight="67.0" prefWidth="386.0" text="Admin " textFill="#3f8573">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="AdminCreateCategoryButton" layoutX="72.0" layoutY="228.0" mnemonicParsing="false" onAction="#OnAdminCreateCategoryButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Create Category" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="30.0" layoutY="135.0" prefHeight="58.0" prefWidth="403.0" text="Please Select an action :" textFill="#3f8573">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="AdminReadCategoryButton" layoutX="72.0" layoutY="313.0" mnemonicParsing="false" onAction="#OnAdminReadCategoryButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Read Category" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminUpdateCategoryButton" layoutX="72.0" layoutY="390.0" mnemonicParsing="false" onAction="#OnAdminUpdateCategoryButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Update Category" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminDeleteCategoryButton" layoutX="72.0" layoutY="470.0" mnemonicParsing="false" onAction="#OnAdminDeleteCategoryButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Delete Category" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminAddRoomButton" layoutX="469.0" layoutY="228.0" mnemonicParsing="false" onAction="#OnAdminAddRoomButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Add Room" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminDisplayRoomsButton" layoutX="469.0" layoutY="313.0" mnemonicParsing="false" onAction="#OnAdminDisplayRoomsButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Display All Rooms" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminDisplayAttendeesButton" layoutX="469.0" layoutY="390.0" mnemonicParsing="false" onAction="#OnAdminDisplayAttendeesButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Display All Attendees" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminDisplayEventsButton" layoutX="469.0" layoutY="470.0" mnemonicParsing="false" onAction="#OnAdminDisplayEventsButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Display All Events" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminMethodsReturnButton" layoutX="273.0" layoutY="572.0" mnemonicParsing="false" onAction="#OnAdminMethodsReturnButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Return to Dashboard" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

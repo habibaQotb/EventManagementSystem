@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="661.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventmanagement.UserDashboardController">
+   <children>
+      <Label layoutX="156.0" layoutY="24.0" prefHeight="70.0" prefWidth="478.0" text="Event Management System" textFill="#3f8573">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="UserSignupButton" layoutX="284.0" layoutY="231.0" mnemonicParsing="false" onAction="#OnUserSignupButton" prefHeight="51.0" prefWidth="302.0" style="-fx-background-color: #3f8573;" text="Sign up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="UserLoginButton" layoutX="283.0" layoutY="349.0" mnemonicParsing="false" onAction="#OnUserLoginButton" prefHeight="51.0" prefWidth="302.0" style="-fx-background-color: #3f8573;" text="Log In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="UserReturnButton" layoutX="283.0" layoutY="465.0" mnemonicParsing="false" onAction="#OnUserReturnButton" prefHeight="51.0" prefWidth="302.0" style="-fx-background-color: #3f8573;" text="Return to Dashboard" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

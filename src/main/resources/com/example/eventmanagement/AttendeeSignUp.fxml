@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="661.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventmanagement.AttendeeSignUpController">
+   <children>
+      <AnchorPane prefHeight="661.0" prefWidth="851.0">
+         <children>
+
+            <Label ellipsisString="" layoutX="128.0" layoutY="20.0" text="Attendee Registration" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="147.0" text="Username :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AttendeeUsernameTextfieldSignup" layoutX="330.0" layoutY="152.0" onAction="#OnAttendeeUsernameTextfieldSignup" prefHeight="26.0" prefWidth="325.0" promptText="Enter Username " />
+            <Label layoutX="106.0" layoutY="218.0" text="Password :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AttendeePasswordTextfieldSignup" layoutX="329.0" layoutY="223.0" onAction="#OnAttendeePasswordTextfieldSignup" prefHeight="26.0" prefWidth="325.0" promptText="Enter Password" />
+            <Label layoutX="108.0" layoutY="294.0" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="285.0" text="Date of Birth :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="AttendeeDay" accessibleRole="DATE_PICKER" layoutX="325.0" layoutY="295.0" onAction="#OnAttendeeDay" prefHeight="26.0" prefWidth="74.0" promptText="day" />
+            <ComboBox fx:id="AttendeeMonth" layoutX="431.0" layoutY="295.0" onAction="#OnAttendeeMonth" prefHeight="26.0" prefWidth="96.0" promptText="month" translateX="1.0" />
+            <ComboBox fx:id="AttendeeYear" layoutX="565.0" layoutY="296.0" onAction="#OnAttendeeYear" prefHeight="26.0" prefWidth="73.0" promptText="year" />
+            <Label layoutX="106.0" layoutY="352.0" text="Interests :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="416.0" text="Gender :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AttendeeInterestsTextfieldSignup" layoutX="324.0" layoutY="362.0" onAction="#OnAttendeeInterestsTextfieldSignup" prefHeight="26.0" prefWidth="325.0" promptText="Enter your Interests" />
+            <RadioButton fx:id="AttendeeMaleRadioButton" layoutX="325.0" layoutY="431.0" mnemonicParsing="false" onAction="#OnAttendeeMaleRadioButton" text="Male" />
+            <RadioButton fx:id="AttendeeFemaleRadioButton" layoutX="517.0" layoutY="431.0" mnemonicParsing="false" onAction="#OnAttendeeFemaleRadioButton" text="Female" />
+            <Label layoutX="106.0" layoutY="482.0" text="Address :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AttendeeAddressTextfieldSignup" layoutX="317.0" layoutY="489.0" onAction="#OnAttendeeAddressTextfieldSignup" prefHeight="26.0" prefWidth="325.0" promptText="Enter your Address" />
+            <Label layoutX="106.0" layoutY="544.0" text="Balance :" textFill="#3f8573">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AttendeeBalanceTextfieldSignup" layoutX="317.0" layoutY="548.0" onAction="#OnAttendeeBalanceTextfieldSignup" prefHeight="26.0" prefWidth="325.0" promptText="Enter your balance" />
+            <Button fx:id="AttendeeRegisterButton" layoutX="713.0" layoutY="604.0" mnemonicParsing="false" onAction="#OnAttendeeRegisterButton" prefHeight="35.0" prefWidth="111.0" style="-fx-background-color: #3F8573;" text="Register" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="AttendeeRETURNButton1" layoutX="35.0" layoutY="603.0" mnemonicParsing="false" onAction="#OnAttendeeRETURNButton" prefHeight="35.0" prefWidth="111.0" style="-fx-background-color: #3F8573;" text="Return" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

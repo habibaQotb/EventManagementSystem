@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="661.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventmanagement.OrganizerMethodsController">
+   <children>
+      <Label layoutX="48.0" layoutY="57.0" prefHeight="67.0" prefWidth="506.0" text="Organizer" textAlignment="CENTER" textFill="#3f8573">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="OrganizerCreateEventButton" layoutX="72.0" layoutY="228.0" mnemonicParsing="false" onAction="#OnOrganizerCreateEventButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Create Event" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="48.0" layoutY="124.0" prefHeight="58.0" prefWidth="403.0" text="Please Select an action :" textFill="#3f8573">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="OrganizerReadEventButton" layoutX="72.0" layoutY="313.0" mnemonicParsing="false" onAction="#OnOrganizerReadEventButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Read Event" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrganizerUpdateEventButton" layoutX="72.0" layoutY="390.0" mnemonicParsing="false" onAction="#OnOrganizerUpdateEventButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Update Event" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrganizerDeleteEventButton" layoutX="72.0" layoutY="470.0" mnemonicParsing="false" onAction="#OnOrganizerDeleteEventButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Delete Event" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrganizerDisplayAvailableRoomsButton" layoutX="469.0" layoutY="228.0" mnemonicParsing="false" onAction="#OnOrganizerDisplayAvailableRoomsButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Display Rooms " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrganizerDisplayYourAttendeesButton" layoutX="469.0" layoutY="313.0" mnemonicParsing="false" onAction="#OnOrganizerDisplayYourAttendeesButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Display Your Attendees" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrganizerDisplayYourEventsButton" layoutX="469.0" layoutY="390.0" mnemonicParsing="false" onAction="#OnOrganizerDisplayYourEventsButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Display Your Events" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrganizerMethodsReturnButton" layoutX="469.0" layoutY="470.0" mnemonicParsing="false" onAction="#OnOrganizerMethodsReturnButton" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: #3f8573;" text="Return to Dashboard" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
